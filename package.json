@@ -1,0 +1,22 @@
+{
+  "name": "@tpcofficial/sub-proxy",
+  "version": "0.1.0",
+  "description": "A robust reverse proxy for small hosting providers based on request (subdomain) parsing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpcofficial/sub-proxy.git"
+  },
+  "author": "TPC Grp UK Ltd",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/tpcofficial/sub-proxy/issues"
+  },
+  "homepage": "https://github.com/tpcofficial/sub-proxy#readme",
+  "dependencies": {
+    "node-http-proxy": "^0.2.4"
+  }
+}
