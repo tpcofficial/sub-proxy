@@ -2,19 +2,7 @@ const proxy = require('http-proxy');
 const https = require('https');
 const config = require('../loader.js');
 
-//
-// Create the proxy server listening on port 443
-//
-/*
-proxy.createServer({
-    ssl: {
-        key: fs.readFileSync('valid-ssl-key.pem', 'utf8'),
-        cert: fs.readFileSync('valid-ssl-cert.pem', 'utf8')
-    },
-    target: 'http://localhost:9010',
-    secure: true // Depends on your needs, could be false.
-}).listen(443);*/
-
+//domain parser
 const domainParser = (req) => {
 
 };
