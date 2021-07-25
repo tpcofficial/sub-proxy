@@ -6,7 +6,8 @@
     },
     "domain_options": {
         "base_domain": "abc.org",
-        "proxy_domain": "proxy.abc.org"
+        "proxy_domain": "proxy.abc.org",
+        "host_domain": "hosts.abc.org"
     },
     "port": 443
 }
